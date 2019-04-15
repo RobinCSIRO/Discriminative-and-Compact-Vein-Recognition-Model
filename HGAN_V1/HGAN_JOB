@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=HGAN_BRD
+#SBATCH --time=06:00:00
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30g
+
+# Application specific commands:
+module load tensorflow/1.6.0-py36-gpu
+module load python/3.6.1
+module load opencv/3.2.0
+cd /flush1/wan246/HGAN
+python train.py --dataset=Hand_Dorsa_Vein
