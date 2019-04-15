@@ -1,0 +1,1 @@
+This is an example implementation of using SVD for fully-connected layer decomposition and compression. Complete codes including both SVD for FC layers, and Redundancy_Driven_Algorithm for Conv layers will be available after paper acceptance.
