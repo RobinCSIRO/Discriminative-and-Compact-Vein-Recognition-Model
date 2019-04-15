@@ -1,0 +1,3 @@
+This is a basic implementation of image-to-image translation framework within CycleGAN formulation.
+Specific implementation of HGAN for intra- and inter-class vein image translation will be available after paper acceptance.
+Besides, we will also provide different loss formulations of GAN, including Wasserstein distance+Gradient penelty, and LSGAN!
